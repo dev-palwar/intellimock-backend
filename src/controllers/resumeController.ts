@@ -77,9 +77,7 @@ export const initiateConvo = async (req: Request, res: Response) => {
   }
 };
 
-export const tempCont = async (req: Request, res: Response) => {
-  console.log("cjhala");
-
+export const processResume = async (req: Request, res: Response) => {
   //   const { resumeUrl } = req.body;
   //   console.log("Received URL:", resumeUrl);
 
